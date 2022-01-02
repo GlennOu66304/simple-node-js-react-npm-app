@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                 yarn config set registry "https://registry.npm.taobao.org/"
-                yarn install             
+                yarn            
                 '''
             }
         }
